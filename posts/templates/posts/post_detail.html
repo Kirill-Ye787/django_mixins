@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Детали поста{% endblock %}
+{% block content %}
+  <div class="card">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+    <p>Автор: {{ post.author }} • {{ post.created_at }}</p>
+    <p>
+      <a class="btn" href="{% url 'posts:edit' post.pk %}">Редактировать</a>
+      <a class="btn" href="{% url 'posts:delete' post.pk %}">Удалить</a>
+    </p>
+  </div>
+{% endblock %}

@@ -1,0 +1,112 @@
+[
+  {
+    "model": "posts.post",
+    "pk": 1,
+    "fields": {
+      "title": "Пост 1",
+      "body": "Это тестовый текст поста №1.",
+      "author": 1,
+      "created_at": "2025-09-04T10:01:00Z",
+      "updated_at": "2025-09-04T10:01:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 2,
+    "fields": {
+      "title": "Пост 2",
+      "body": "Это тестовый текст поста №2.",
+      "author": 1,
+      "created_at": "2025-09-04T10:02:00Z",
+      "updated_at": "2025-09-04T10:02:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 3,
+    "fields": {
+      "title": "Пост 3",
+      "body": "Это тестовый текст поста №3.",
+      "author": 1,
+      "created_at": "2025-09-04T10:03:00Z",
+      "updated_at": "2025-09-04T10:03:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 4,
+    "fields": {
+      "title": "Пост 4",
+      "body": "Это тестовый текст поста №4.",
+      "author": 1,
+      "created_at": "2025-09-04T10:04:00Z",
+      "updated_at": "2025-09-04T10:04:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 5,
+    "fields": {
+      "title": "Пост 5",
+      "body": "Это тестовый текст поста №5.",
+      "author": 1,
+      "created_at": "2025-09-04T10:05:00Z",
+      "updated_at": "2025-09-04T10:05:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 6,
+    "fields": {
+      "title": "Пост 6",
+      "body": "Это тестовый текст поста №6.",
+      "author": 1,
+      "created_at": "2025-09-04T10:06:00Z",
+      "updated_at": "2025-09-04T10:06:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 7,
+    "fields": {
+      "title": "Пост 7",
+      "body": "Это тестовый текст поста №7.",
+      "author": 1,
+      "created_at": "2025-09-04T10:07:00Z",
+      "updated_at": "2025-09-04T10:07:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 8,
+    "fields": {
+      "title": "Пост 8",
+      "body": "Это тестовый текст поста №8.",
+      "author": 1,
+      "created_at": "2025-09-04T10:08:00Z",
+      "updated_at": "2025-09-04T10:08:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 9,
+    "fields": {
+      "title": "Пост 9",
+      "body": "Это тестовый текст поста №9.",
+      "author": 1,
+      "created_at": "2025-09-04T10:09:00Z",
+      "updated_at": "2025-09-04T10:09:00Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 10,
+    "fields": {
+      "title": "Пост 10",
+      "body": "Это тестовый текст поста №10.",
+      "author": 1,
+      "created_at": "2025-09-04T10:10:00Z",
+      "updated_at": "2025-09-04T10:10:00Z"
+    }
+  }
+]

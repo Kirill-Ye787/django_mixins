@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Посты{% endblock %}
+{% block content %}
+  {% for p in posts %}
+    <div class="card">
+      <h3><a href="{% url 'posts:detail' p.pk %}">{{ p.title }}</a></h3>
+      <p>Автор: {{ p.author }} • {{ p.created_at }}</p>
+    </div>
+  {% empty %}
+    <p>Пока нет постов.</p>
+  {% endfor %}
+  {% if is_paginated %}
+    <p>
+      {% if page_obj.has_previous %}
+        <a class="btn" href="?page={{ page_obj.previous_page_number }}">Назад</a>
+      {% endif %}
+      Стр. {{ page_obj.number }} из {{ paginator.num_pages }}
+      {% if page_obj.has_next %}
+        <a class="btn" href="?page={{ page_obj.next_page_number }}">Вперёд</a>
+      {% endif %}
+    </p>
+  {% endif %}
+  <p><a class="btn" href="{% url 'posts:create' %}">Создать пост (staff)</a></p>
+{% endblock %}
